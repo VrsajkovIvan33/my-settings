@@ -5,6 +5,7 @@ sudo apt-get install wget
 
 #instal erlang
 wget https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_18.3-1~ubuntu~trusty_amd64.deb
+sudo apt-get install -f
 sudo dpkg -i esl-erlang_18.3-1~ubuntu~trusty_amd64.deb
 
 #install elixir
